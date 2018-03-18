@@ -1,0 +1,11 @@
+
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+  profiles:
+        active: dev
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: com/shx/lawboss/dao/mapper/*Mapper.xml
